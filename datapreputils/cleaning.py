@@ -21,3 +21,6 @@ def replace_missing_values(df, method="mean", value=None):
 
     else:
         raise ValueError("Unsupported method")
+
+def remove_duplicates(df):
+    return df.drop_duplicates()
