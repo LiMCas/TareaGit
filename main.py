@@ -33,3 +33,6 @@ print("Media geométrica:", geometric_mean(new_data_list))
 print("\n--- Normalización ---")
 print("Min-Max:", min_max(new_data_list))
 print("Z-score:", z_score(new_data_list))
+
+print("Personalizacion de modulo")
+print("Media armónica:", harmonic_mean(new_data_list))
