@@ -1,5 +1,6 @@
 import pandas as pd
 from datapreputils import delete_null_values,replace_missing_values, min_max, z_score,mode, harmonic_mean, geometric_mean, remove_duplicates, mean_normalization
+from datapreputils import median_function
 
 data = [10,None, 20, 20, 30, 40, None]
 
@@ -41,3 +42,6 @@ print("Media Normalizada:", mean_normalization(new_data_list))
 
 print("Personalizacion de modulo")
 print("Media armónica:", harmonic_mean(new_data_list))
+
+print("Añadiendo la función de calculo de mediana")
+print("Valor de la mediana", median_function(new_data_list))

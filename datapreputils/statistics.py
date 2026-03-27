@@ -1,4 +1,5 @@
 import math
+from statistics import median
 
 def mode(data):
     frequency = {}
@@ -24,3 +25,7 @@ def geometric_mean(data):
         return 0
     product = math.prod(data)
     return product ** (1 / len(data))
+
+def median_function(data):
+    return median(data)
+    
