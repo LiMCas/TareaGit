@@ -1,5 +1,5 @@
 import math
-from statistics import median
+from statistics import median,variance
 
 def mode(data):
     frequency = {}
@@ -28,4 +28,5 @@ def geometric_mean(data):
 
 def median_function(data):
     return median(data)
-    
+def variance_funcion(data):
+    return variance(data)   
